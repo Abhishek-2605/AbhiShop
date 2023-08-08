@@ -70,7 +70,7 @@ const orderSchema = new mongoose.Schema({
     },
     deliveredAt: {
         type: Date,
-    }
+    },
 }, {
     timestamps: true,
 });
